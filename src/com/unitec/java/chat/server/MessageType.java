@@ -1,0 +1,11 @@
+package com.unitec.java.chat.server;
+
+public enum MessageType {
+	REGISTER_CLIENT,
+	REGISTER_BROADCAST,
+	CHAT_MESSAGE,
+	CHAT_BROADCAST,
+	PRIVATE_MESSAGE,
+	EXIT_MESSAGE,
+	EXIT_BROADCAST
+}
